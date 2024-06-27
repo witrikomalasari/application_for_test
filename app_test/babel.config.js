@@ -4,7 +4,7 @@ module.exports = {
     [
       'module-resolver',
       {
-        root: ['./RemittanceApp'],
+        root: ['./src'],
         extensions: [
           '.js',
           '.jsx',
@@ -18,16 +18,16 @@ module.exports = {
         ],
         alias: {
           tests: ['./tests/'],
+          '@API': './src/API',
           '@assets': './src/assets',
           '@components': './src/components',
-          '@screens': './src/screens',
-          '@navigators': './src/navigators',
           '@hooks': './src/hooks',
+          '@models': './src/models',
+          '@navigators': './src/navigators',
+          '@redux': './src/redux',
+          '@screens': './src/screens',
           '@theme': './src/theme',
           '@utils': './src/utils',
-          '@API': './src/API',
-          '@redux': './src/redux',
-          '@models': './src/models',
         },
       },
     ],

@@ -11,16 +11,16 @@
     "baseUrl": ".",
     "paths": {
       "tests": ["tests/*"],
+      "@API/*": ["src/API/*"],
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
-      "@screens/*": ["src/screens/*"],
-      "@navigators/*": ["src/navigators/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@theme/*": ["src/theme/*"],
-      "@utils/*": ["src/utils/*"],
-      "@API/*": ["src/API/*"],
+      "@models/*": ["src/models/*"],
+      "@navigators/*": ["src/navigators/*"],
       "@redux/*": ["src/redux/*"],
-      "@models/*": ["src/models/*"]
+      "@screens/*": ["src/screens/*"],
+      "@theme/*": ["src/theme/*"],
+      "@utils/*": ["src/utils/*"]
     }
   }
 }
